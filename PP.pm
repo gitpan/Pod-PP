@@ -1,10 +1,17 @@
 #
-# $Id: PP.pm,v 0.1 2001/04/25 10:41:48 ram Exp $
+# $Id: PP.pm,v 0.1.1.1 2001/04/25 12:18:11 ram Exp $
 #
-#  @COPYRIGHT@
+#  Copyright (c) 2000-2001, Raphael Manfredi
+#  
+#  You may redistribute only under the terms of the Artistic License,
+#  as specified in the README file that comes with the distribution.
 #
 # HISTORY
 # $Log: PP.pm,v $
+# Revision 0.1.1.1  2001/04/25 12:18:11  ram
+# patch1: forgot to expand copyright notice in files
+# patch1: updated version number
+#
 # Revision 0.1  2001/04/25 10:41:48  ram
 # Baseline for first Alpha release.
 #
@@ -19,7 +26,7 @@ require Pod::Parser;
 use vars qw(@ISA $VERSION);
 @ISA = qw(Pod::Parser);
 
-$VERSION = '0.100';
+$VERSION = '0.101';
 
 use Carp::Datum;
 use Log::Agent;

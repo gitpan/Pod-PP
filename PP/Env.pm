@@ -1,7 +1,10 @@
 #
 # $Id: Env.pm,v 0.1 2001/04/25 10:41:48 ram Exp $
 #
-#  @COPYRIGHT@
+#  Copyright (c) 2000-2001, Raphael Manfredi
+#  
+#  You may redistribute only under the terms of the Artistic License,
+#  as specified in the README file that comes with the distribution.
 #
 # HISTORY
 # $Log: Env.pm,v $
