@@ -1,0 +1,30 @@
+#
+# $Id: comments,v 0.1 2001/04/25 10:41:49 ram Exp $
+#
+#  @COPYRIGHT@
+#
+# HISTORY
+# $Log: comments,v $
+# Revision 0.1  2001/04/25 10:41:49  ram
+# Baseline for first Alpha release.
+#
+# $EndLog$
+#
+
+=pp comment this is a comment line
+
+=pp comment
+And so is this.
+
+=for pp comment
+And finally, so is this
+paragraph: just a
+comment.
+
+=begin pp comment
+
+So this is a long comment.
+
+It spans several lines.
+
+=end pp comment

@@ -1,0 +1,17 @@
+#
+# $Id: require,v 0.1 2001/04/25 10:41:49 ram Exp $
+#
+#  @COPYRIGHT@
+#
+# HISTORY
+# $Log: require,v $
+# Revision 0.1  2001/04/25 10:41:49  ram
+# Baseline for first Alpha release.
+#
+# $EndLog$
+#
+
+==pp require "foo.pp"
+==pp require "h/foo.pp"
+==pp require "h/../h/foo.pp"
+

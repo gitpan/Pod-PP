@@ -1,0 +1,17 @@
+#
+# $Id: defines,v 0.1 2001/04/25 10:41:49 ram Exp $
+#
+#  @COPYRIGHT@
+#
+# HISTORY
+# $Log: defines,v $
+# Revision 0.1  2001/04/25 10:41:49  ram
+# Baseline for first Alpha release.
+#
+# $EndLog$
+#
+
+==pp define DIR		/var/tmp
+==pp include "def.pp"
+
+This is P<DIR> and this is P<DEF_DIR>.
