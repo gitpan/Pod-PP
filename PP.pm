@@ -1,5 +1,5 @@
 #
-# $Id: PP.pm,v 0.1.1.1 2001/04/25 12:18:11 ram Exp $
+# $Id: PP.pm,v 0.1.1.2 2001/12/01 14:03:47 ram Exp $
 #
 #  Copyright (c) 2000-2001, Raphael Manfredi
 #  
@@ -8,6 +8,9 @@
 #
 # HISTORY
 # $Log: PP.pm,v $
+# Revision 0.1.1.2  2001/12/01 14:03:47  ram
+# patch2: noted that this software is now unmaintained
+#
 # Revision 0.1.1.1  2001/04/25 12:18:11  ram
 # patch1: forgot to expand copyright notice in files
 # patch1: updated version number
@@ -26,7 +29,7 @@ require Pod::Parser;
 use vars qw(@ISA $VERSION);
 @ISA = qw(Pod::Parser);
 
-$VERSION = '0.101';
+$VERSION = '0.102';
 
 use Carp::Datum;
 use Log::Agent;
@@ -1207,6 +1210,13 @@ level, but it was convenient to do so.
 =head1 AUTHOR
 
 Raphael Manfredi F<E<lt>Raphael_Manfredi@pobox.comE<gt>>
+
+This software is currently unmaintained.  Please look at:
+
+ http://www.unmaintained-free-software.org/
+
+if you wish to take over maintenance.  I would appreciate being notified,
+so that I can transfer the PAUSE (CPAN) ownership to you.
 
 =head1 SEE ALSO
 
